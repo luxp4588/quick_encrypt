@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: quick-encrypt
-Version: 0.1
+Version: 0.2
 Summary: 用于快速实现AES加密功能，包含文本加密，数组或者字典类型加密方法
 Home-page: https://github.com/luxp4588/quick_encrypt.git
 Author: python-xp

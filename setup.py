@@ -11,7 +11,7 @@ with open(path.join(basedir, 'README.md'), encoding="utf-8") as f:
 
 setup(
     name='quick_encrypt',
-    version='0.1',
+    version='0.2',
     url='https://github.com/luxp4588/quick_encrypt.git',
     license='MIT',
     author="python-xp",
@@ -20,6 +20,7 @@ setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     platforms='any',
+    packages=["quick_encrypt"],
     zip_safe=False,
     include_package_data=True,
     install_requires=['pycryptodome'],
